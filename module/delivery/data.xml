@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<delivery>
+	<restaurant id="ccstaff">
+		<name>CC Staff</name>
+		<menu>AgADBQADr6cxG6jQywpUYBntUptRO-jWsTIABPU--zNcVbjxebwBAAEC</menu>
+		<tel>2603 6882</tel>
+		<tel>2603 7188</tel>
+	</restaurant>
+	<restaurant id="KFC">
+		<name>KFC</name>
+		<tel>2180 0000</tel>
+		<text>https://onlineordering.kfchk.com/hongkong/tc/index.htm</text>
+	</restaurant>
+	<restaurant id="pizzabox">
+		<name>Pizza Box</name>
+		<tel>2515 1515</tel>
+		<text>http://www.pizzabox.com.hk/chi/</text>
+	</restaurant>
+</delivery>
