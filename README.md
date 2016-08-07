@@ -7,4 +7,7 @@ Planned Features:
 - Delivery Menu
 - Fully Automatic Secret Posting and Approval
 - Exam Timetable
-乜乜乜
+- ......
+
+Telegram Group:
+https://telegram.me/joinchat/BuSxAT8utiwYDoxVKUHhMQ
