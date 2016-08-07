@@ -8,6 +8,3 @@ Planned Features:
 - Fully Automatic Secret Posting and Approval
 - Exam Timetable
 - ......
-
-Telegram Group:
-https://telegram.me/joinchat/BuSxAT8utiwYDoxVKUHhMQ
