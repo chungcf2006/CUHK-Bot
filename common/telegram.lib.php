@@ -1,5 +1,5 @@
 <?php
-	define('BOT_TOKEN', 'TOKEN_HERE');
+	define('BOT_TOKEN', '265746448:AAGBWXTbnTtu0er6YVWHH8DpOnFXGVqBCRk');
 	define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 	//define('PROXY', 'proxy.cse.cuhk.edu.hk:8000');
 
