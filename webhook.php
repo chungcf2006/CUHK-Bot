@@ -13,7 +13,7 @@
 
 	$message_id = $data->callback_query->message->message_id;
 	$receivedMessage = $data->message->text;
-
+	$command = NULL;
 	if (isset($data->callback_query->data)) {
 		$callbackData = $data->callback_query->data;
 		$command = substr($callbackData, 0, strpos($callbackData, ","));
@@ -28,7 +28,8 @@
 			}
 		}
 	}	
-	if (isset($command)){
+
+	if ($command !== NULL){
 		getResponse($command);
 	}
 		
