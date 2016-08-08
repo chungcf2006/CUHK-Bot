@@ -109,11 +109,11 @@
 		//All resource related to a specific module should put under module/{command_name}
 		//The entry point of the command should be named command.php or command.txt
 
-		if (file_exists("module/".$command."/command.php")){
+		if (file_exists("../module/".$command."/command.php")){
 			//Execute PHP file for the command
-			include("module/".$command."/command.php");
+			include("../module/".$command."/command.php");
 		} else {
-			if (($response = file_get_contents("module/".$command."/command.txt")) !== FALSE){
+			if (($response = file_get_contents("../module/".$command."/command.txt")) !== FALSE){
 				//Directly send back text file content
 				sendMessage($response);
 			} else {
