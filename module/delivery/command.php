@@ -32,7 +32,7 @@
 				$description = (string)$child->name[0]."\n";
 				foreach($child->tel as $tel)
 					$description .= $tel."\n";
-				writeLog("Start Call sendPhoto");
+				
 				if (isset($child->menu))
 					sendPhoto((string)$child->menu[0], $description);
 				if (isset($child->text)){

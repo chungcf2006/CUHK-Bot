@@ -1,10 +1,13 @@
 <?php
 	define('BOT_TOKEN', '265746448:AAGBWXTbnTtu0er6YVWHH8DpOnFXGVqBCRk');
 	define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
-	//define('PROXY', 'proxy.cse.cuhk.edu.hk:8000');
+	define('PROXY', 'proxy.cse.cuhk.edu.hk:8000');
 
-	global $chat_id, $data, $receivedMessage, $session, $sessionFile;
+	global $chat_id, $data, $receivedMessage;
 	
+	//Create global $db variable
+	$db = new PDO("sqlite:database.sqlite");
+
 	function writeLog($message){
 		//Write log into log file
 		$date = date("Y-m-d");
@@ -21,6 +24,7 @@
 			"chat_id" => $chat_id,
 			"sticker" => $file_id
 		);
+
 		request("sendSticker", $payload_array);
 	}
 
@@ -35,6 +39,7 @@
 	}
 
 	function sendPhoto($photo, $caption){
+		writeLog("Start Call sendPhoto");
 		//Send image to the user
 		global $chat_id;
 		$payload_array = array(
@@ -42,6 +47,7 @@
 			"photo" => $photo,
 			"caption" => $caption
 		);
+		writeLog(print_r($payload_array, TRUE));
 		request("sendPhoto", $payload_array);
 	}
 
@@ -93,11 +99,11 @@
 
 		$ch = curl_init(API_URL);
 		//Only enable the following line when the server require a Proxy server for Internet connection
-		//curl_setopt($ch, CURLOPT_PROXY, PROXY);
+		curl_setopt($ch, CURLOPT_PROXY, PROXY);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
-		curl_exec($ch);
+		writelog("Response:\n".curl_exec($ch));
 		curl_close($ch);
 		return true;
 
@@ -117,7 +123,6 @@
 				//Directly send back text file content
 				sendMessage($response);
 			} else {
-				sendMessage("?");
 				//No defined command found
 			}
 		}

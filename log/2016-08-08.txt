@@ -1,0 +1,929 @@
+16:14:53	stdClass Object
+(
+    [update_id] => 552017746
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477274301314
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:14:53	module/delivery/command.php
+16:14:54	Start Call sendPhoto
+16:14:54	Start Call sendPhoto
+16:15:32	stdClass Object
+(
+    [update_id] => 552017747
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477307651483
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:15:32	module/delivery/command.php
+16:15:34	Start Call sendPhoto
+16:15:41	stdClass Object
+(
+    [update_id] => 552017748
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478733116857
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:15:41	module/delivery/command.php
+16:15:42	Start Call sendPhoto
+16:17:11	stdClass Object
+(
+    [update_id] => 552017749
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477631093521
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:17:11	module/delivery/command.php
+16:17:12	Start Call sendPhoto
+16:17:12	Array
+(
+    [chat_id] => 115650817
+    [photo] => AgADBQADr6cxG6jQywpUYBntUptRO-jWsTIABPU--zNcVbjxebwBAAEC
+    [caption] => CC Staff
+2603 6882
+2603 7188
+
+)
+
+16:24:37	stdClass Object
+(
+    [update_id] => 552017750
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477857875102
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,KFC
+        )
+
+)
+
+16:24:37	module/delivery/command.php
+16:29:27	stdClass Object
+(
+    [update_id] => 552017751
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716476783944913
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:29:27	module/delivery/command.php
+16:29:28	Response:
+{"ok":true,"result":true}
+16:29:28	Start Call sendPhoto
+16:29:28	Array
+(
+    [chat_id] => 115650817
+    [photo] => AgADBQADr6cxG6jQywpUYBntUptRO-jWsTIABPU--zNcVbjxebwBAAEC
+    [caption] => CC Staff
+2603 6882
+2603 7188
+
+)
+
+16:29:29	Response:
+{"ok":false,"error_code":400,"description":"Wrong file identifier was specified"}
+16:34:09	stdClass Object
+(
+    [update_id] => 552017752
+    [message] => stdClass Object
+        (
+            [message_id] => 39
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470645249
+            [photo] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [file_id] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABBsULVPruaXjxR8AAgI
+                            [file_size] => 1709
+                            [width] => 90
+                            [height] => 58
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [file_id] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABHK3RYRQy7Isxh8AAgI
+                            [file_size] => 32137
+                            [width] => 320
+                            [height] => 206
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [file_id] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABA_NH0wRyjaqxx8AAgI
+                            [file_size] => 167847
+                            [width] => 800
+                            [height] => 516
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [file_id] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI
+                            [file_size] => 294223
+                            [width] => 1239
+                            [height] => 799
+                        )
+
+                )
+
+        )
+
+)
+
+16:34:39	stdClass Object
+(
+    [update_id] => 552017753
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477824794979
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 35
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470643947
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:34:39	module/delivery/command.php
+16:34:41	Response:
+{"ok":true,"result":true}
+16:34:41	Start Call sendPhoto
+16:34:41	Array
+(
+    [chat_id] => 115650817
+    [photo] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI
+    [caption] => CC Staff
+2603 6882
+2603 7188
+
+)
+
+16:34:41	Response:
+{"ok":true,"result":{"message_id":40,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470645283,"photo":[{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABBsULVPruaXjxR8AAgI","file_size":1709,"file_path":"photo\/file_0.jpg","width":90,"height":58},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABHK3RYRQy7Isxh8AAgI","file_size":32137,"width":320,"height":206},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABA_NH0wRyjaqxx8AAgI","file_size":167847,"width":800,"height":516},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI","file_size":294223,"width":1239,"height":799}],"caption":"CC Staff\n2603 6882\n2603 7188"}}
+16:34:51	stdClass Object
+(
+    [update_id] => 552017754
+    [message] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470645292
+            [new_chat_participant] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [new_chat_member] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+        )
+
+)
+
+16:35:25	stdClass Object
+(
+    [update_id] => 552017755
+    [message] => stdClass Object
+        (
+            [message_id] => 272
+            [from] => stdClass Object
+                (
+                    [id] => 18280230
+                    [first_name] => Mr
+                    [last_name] => TONG
+                    [username] => mr_tong
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470645326
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 6
+                        )
+
+                )
+
+        )
+
+)
+
+16:35:25	module/start/command.php
+16:35:26	Response:
+{"ok":true,"result":{"message_id":273,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470645328,"text":"Welcome to CUHK Bot!"}}
+16:36:35	stdClass Object
+(
+    [update_id] => 552017756
+    [message] => stdClass Object
+        (
+            [message_id] => 278
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470645395
+            [text] => /delivery
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 9
+                        )
+
+                )
+
+        )
+
+)
+
+16:36:35	module/delivery/command.php
+16:36:36	Response:
+{"ok":true,"result":{"message_id":279,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470645398,"text":"\u8acb\u9078\u64c7\u9910\u5ef3"}}
+16:36:38	stdClass Object
+(
+    [update_id] => 552017757
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478814296443
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 279
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470645398
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:36:38	module/delivery/command.php
+16:36:39	Response:
+{"ok":true,"result":true}
+16:36:39	Start Call sendPhoto
+16:36:39	Array
+(
+    [chat_id] => -1001060025900
+    [photo] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI
+    [caption] => CC Staff
+2603 6882
+2603 7188
+
+)
+
+16:36:40	Response:
+{"ok":true,"result":{"message_id":280,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470645401,"photo":[{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABBsULVPruaXjxR8AAgI","file_size":1709,"file_path":"photo\/file_0.jpg","width":90,"height":58},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABHK3RYRQy7Isxh8AAgI","file_size":32137,"width":320,"height":206},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABA_NH0wRyjaqxx8AAgI","file_size":167847,"width":800,"height":516},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI","file_size":294223,"width":1239,"height":799}],"caption":"CC Staff\n2603 6882\n2603 7188"}}
+16:36:51	stdClass Object
+(
+    [update_id] => 552017758
+    [callback_query] => stdClass Object
+        (
+            [id] => 78512990687614476
+            [from] => stdClass Object
+                (
+                    [id] => 18280230
+                    [first_name] => Mr
+                    [last_name] => TONG
+                    [username] => mr_tong
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 279
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470645398
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,pizzabox
+        )
+
+)
+
+16:36:51	module/delivery/command.php
+16:36:52	Response:
+{"ok":true,"result":true}
+16:36:53	Response:
+{"ok":true,"result":{"message_id":281,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470645414,"text":"Pizza Box\n2515 1515\n\nhttp:\/\/www.pizzabox.com.hk\/chi\/","entities":[{"type":"url","offset":21,"length":31}]}}
+16:56:10	stdClass Object
+(
+    [update_id] => 552017759
+    [callback_query] => stdClass Object
+        (
+            [id] => 446971433068155816
+            [from] => stdClass Object
+                (
+                    [id] => 104068646
+                    [first_name] => Robert
+                    [last_name] => '); DROP TABLE Students;--
+                    [username] => rouvis
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 279
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470645398
+                    [text] => 請選擇餐廳
+                )
+
+            [data] => delivery,ccstaff
+        )
+
+)
+
+16:56:10	module/delivery/command.php
+16:56:11	Response:
+{"ok":true,"result":true}
+16:56:11	Start Call sendPhoto
+16:56:11	Array
+(
+    [chat_id] => -1001060025900
+    [photo] => AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI
+    [caption] => CC Staff
+2603 6882
+2603 7188
+
+)
+
+16:56:12	Response:
+{"ok":true,"result":{"message_id":283,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470646573,"photo":[{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABBsULVPruaXjxR8AAgI","file_size":1709,"file_path":"photo\/file_0.jpg","width":90,"height":58},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABHK3RYRQy7Isxh8AAgI","file_size":32137,"width":320,"height":206},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABA_NH0wRyjaqxx8AAgI","file_size":167847,"width":800,"height":516},{"file_id":"AgADBQADkasxGwGx5AbVzK6qyr75dLPyvzIABFwPzlIfnuhuxB8AAgI","file_size":294223,"width":1239,"height":799}],"caption":"CC Staff\n2603 6882\n2603 7188"}}
+20:16:44	stdClass Object
+(
+    [update_id] => 552017760
+    [message] => stdClass Object
+        (
+            [message_id] => 290
+            [from] => stdClass Object
+                (
+                    [id] => 192860110
+                    [first_name] => Terence
+                    [username] => terence3295
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470658603
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 6
+                        )
+
+                )
+
+        )
+
+)
+
+20:16:44	module/start/command.php
+20:16:45	Response:
+{"ok":true,"result":{"message_id":291,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470658606,"text":"Welcome to CUHK Bot!"}}
+20:17:12	stdClass Object
+(
+    [update_id] => 552017761
+    [message] => stdClass Object
+        (
+            [message_id] => 41
+            [from] => stdClass Object
+                (
+                    [id] => 56347541
+                    [first_name] => Patrick
+                    [last_name] => Pun
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 56347541
+                    [first_name] => Patrick
+                    [last_name] => Pun
+                    [type] => private
+                )
+
+            [date] => 1470658633
+            [text] => /start start
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 6
+                        )
+
+                )
+
+        )
+
+)
+
+20:17:12	module/start/command.php
+20:17:13	Response:
+{"ok":true,"result":{"message_id":42,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":56347541,"first_name":"Patrick","last_name":"Pun","type":"private"},"date":1470658634,"text":"Welcome to CUHK Bot!"}}
+20:17:19	stdClass Object
+(
+    [update_id] => 552017762
+    [message] => stdClass Object
+        (
+            [message_id] => 43
+            [from] => stdClass Object
+                (
+                    [id] => 56347541
+                    [first_name] => Patrick
+                    [last_name] => Pun
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 56347541
+                    [first_name] => Patrick
+                    [last_name] => Pun
+                    [type] => private
+                )
+
+            [date] => 1470658640
+            [text] => /help
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 5
+                        )
+
+                )
+
+        )
+
+)
+
+20:17:19	module/help/command.php
+20:18:13	stdClass Object
+(
+    [update_id] => 552017763
+    [message] => stdClass Object
+        (
+            [message_id] => 292
+            [from] => stdClass Object
+                (
+                    [id] => 104068646
+                    [first_name] => Robert
+                    [last_name] => '); DROP TABLE Students;--
+                    [username] => rouvis
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470658694
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 6
+                        )
+
+                )
+
+        )
+
+)
+
+20:18:13	module/start/command.php
+20:18:14	Response:
+{"ok":true,"result":{"message_id":293,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":-1001060025900,"title":"CUHK Telegram Bot Dev Team","type":"supergroup"},"date":1470658695,"text":"Welcome to CUHK Bot!"}}
+20:18:21	stdClass Object
+(
+    [update_id] => 552017764
+    [message] => stdClass Object
+        (
+            [message_id] => 295
+            [from] => stdClass Object
+                (
+                    [id] => 104068646
+                    [first_name] => Robert
+                    [last_name] => '); DROP TABLE Students;--
+                    [username] => rouvis
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470658701
+            [text] => /stop
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 5
+                        )
+
+                )
+
+        )
+
+)
+
+20:18:21	module/stop/command.php
+20:55:01	stdClass Object
+(
+    [update_id] => 552017765
+    [message] => stdClass Object
+        (
+            [message_id] => 346
+            [from] => stdClass Object
+                (
+                    [id] => 104068646
+                    [first_name] => Robert
+                    [last_name] => '); DROP TABLE Students;--
+                    [username] => rouvis
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470660900
+            [new_chat_participant] => stdClass Object
+                (
+                    [id] => 256954550
+                    [first_name] => DNLM Bot
+                    [username] => dnlmBot
+                )
+
+            [new_chat_member] => stdClass Object
+                (
+                    [id] => 256954550
+                    [first_name] => DNLM Bot
+                    [username] => dnlmBot
+                )
+
+        )
+
+)
+
