@@ -117,6 +117,7 @@
 				//Directly send back text file content
 				sendMessage($response);
 			} else {
+				sendMessage("?");
 				//No defined command found
 			}
 		}
