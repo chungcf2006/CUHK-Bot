@@ -91,13 +91,12 @@
 
 		$parameters["method"] = $method;
 
-		writeLog("curl");
-		$ch = curl_init(API_URL."/".$method);
+		$ch = curl_init(API_URL);
 		//Only enable the following line when the server require a Proxy server for Internet connection
 		//curl_setopt($ch, CURLOPT_PROXY, PROXY);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
-		//curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
+		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
 		curl_exec($ch);
 		curl_close($ch);
 		return true;

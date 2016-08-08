@@ -1,6 +1,5 @@
 <?php
-	require_once(__DIR__."/../lib.php");
-	$xml = simplexml_load_file(__DIR__."/xml/delivery.xml");
+	$xml = simplexml_load_file("module/delivery/data.xml");
 	global $callbackData, $message_id;
 	if(substr($callbackData, strpos($callbackData, ",")) === FALSE){
 
