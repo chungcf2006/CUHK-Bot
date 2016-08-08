@@ -91,6 +91,7 @@
 
 		$parameters["method"] = $method;
 
+		writeLog("curl");
 		$ch = curl_init(API_URL."/".$method);
 		//Only enable the following line when the server require a Proxy server for Internet connection
 		//curl_setopt($ch, CURLOPT_PROXY, PROXY);
