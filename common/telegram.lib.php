@@ -7,7 +7,7 @@
 	
 	function writeLog($message){
 		//Write log into log file
-		$date = date("Y-m-d")
+		$date = date("Y-m-d");
 		$logFile = fopen("../log/".$date.".txt", "a+");
 		fwrite($logFile, date("H:i:s\t"));
 		fwrite($logFile, $message."\n");
