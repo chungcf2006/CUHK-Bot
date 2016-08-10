@@ -1,5 +1,5 @@
 <?php
-	include("common/telegram.lib.php");
+	require_once("common/telegram.lib.php");
 	header("Content-Type:application/json");
 	$json = file_get_contents('php://input');
 	$data = json_decode($json);
@@ -30,7 +30,22 @@
 	}	
 
 	if ($command !== NULL){
-		getResponse($command);
+		//Determine whether to execute the command by external PHP file or directly send predefined content to the user
+
+		//All resource related to a specific module should put under module/{command_name}
+		//The entry point of the command should be named command.php or command.txt
+		writeLog("module/".$command."/command.php");
+		if (file_exists("module/".$command."/command.php")){
+			//Execute PHP file for the command
+			include("module/".$command."/command.php");
+		} else {
+			if (($response = file_get_contents("module/".$command."/command.txt")) !== FALSE){
+				//Directly send back text file content
+				sendMessage($response);
+			} else {
+				//No defined command found
+			}
+		}
 	}
 		
 	

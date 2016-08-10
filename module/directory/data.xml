@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<directory>
+	<entry id="0" parent="-1">
+		<name>學院</name>
+	</entry>
+	<entry id="1" parent="-1">
+		<name>書院</name>
+	</entry>
+	<entry id="2" parent="-1">
+		<name>行政部門</name>
+	</entry>
+	<entry id="3" parent="0">
+		<name>工程學院</name>
+	</entry>
+	<entry id="4" parent="3">
+		<name>計算機科學與工程學系</name>
+		<tel>39438444</tel>
+	</entry>
+</directory>

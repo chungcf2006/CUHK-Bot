@@ -927,3 +927,43 @@
 
 )
 
+21:02:00	stdClass Object
+(
+    [update_id] => 552017766
+    [message] => stdClass Object
+        (
+            [message_id] => 381
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470661319
+            [left_chat_participant] => stdClass Object
+                (
+                    [id] => 256954550
+                    [first_name] => DNLM Bot
+                    [username] => dnlmBot
+                )
+
+            [left_chat_member] => stdClass Object
+                (
+                    [id] => 256954550
+                    [first_name] => DNLM Bot
+                    [username] => dnlmBot
+                )
+
+        )
+
+)
+
