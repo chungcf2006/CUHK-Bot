@@ -1,0 +1,7528 @@
+00:04:18	stdClass Object
+(
+    [update_id] => 552017999
+    [message] => stdClass Object
+        (
+            [message_id] => 251
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845057
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:04:18	module/directory2/command.php
+00:04:18	SQLite3 Object
+(
+)
+
+00:04:18	Target: -1
+00:04:18	456
+00:04:18	isNotEntry
+00:04:18	SQLite3Stmt Object
+(
+)
+
+00:04:18	
+00:04:18	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:04:20	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:06:33	stdClass Object
+(
+    [update_id] => 552018000
+    [message] => stdClass Object
+        (
+            [message_id] => 252
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845192
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:06:33	module/directory2/command.php
+00:06:33	SQLite3 Object
+(
+)
+
+00:06:33	Target: -1
+00:06:33	456
+00:06:33	isNotEntry
+00:06:33	SQLite3Stmt Object
+(
+)
+
+00:06:33	
+00:06:33	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:06:35	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:08:15	stdClass Object
+(
+    [update_id] => 552018001
+    [message] => stdClass Object
+        (
+            [message_id] => 253
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845294
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:08:15	module/directory2/command.php
+00:08:15	SQLite3 Object
+(
+)
+
+00:08:15	Target: -1
+00:08:15	456
+00:08:15	isNotEntry
+00:08:15	SQLite3Stmt Object
+(
+)
+
+00:08:15	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:08:17	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:11:38	stdClass Object
+(
+    [update_id] => 552018002
+    [message] => stdClass Object
+        (
+            [message_id] => 254
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845497
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:11:38	module/directory2/command.php
+00:11:38	SQLite3 Object
+(
+)
+
+00:11:38	Target: -1
+00:11:38	456
+00:11:38	isNotEntry
+00:11:38	Result:
+00:11:38	SQLite3Result Object
+(
+)
+
+00:11:38	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:11:39	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:17:30	stdClass Object
+(
+    [update_id] => 552018003
+    [message] => stdClass Object
+        (
+            [message_id] => 255
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845849
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:17:30	module/directory2/command.php
+00:17:30	SQLite3 Object
+(
+)
+
+00:17:30	Target: -1
+00:17:30	456
+00:17:30	isNotEntry
+00:17:30	Result:
+00:17:30	2
+00:17:30	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:17:31	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:18:07	stdClass Object
+(
+    [update_id] => 552018004
+    [message] => stdClass Object
+        (
+            [message_id] => 256
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845886
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:18:07	module/directory2/command.php
+00:18:07	SQLite3 Object
+(
+)
+
+00:18:07	Target: -1
+00:18:07	456
+00:18:07	isNotEntry
+00:18:07	Result:
+00:18:07	3
+00:18:07	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:18:08	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:19:28	stdClass Object
+(
+    [update_id] => 552018005
+    [message] => stdClass Object
+        (
+            [message_id] => 257
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470845967
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:19:28	module/directory2/command.php
+00:19:28	SQLite3 Object
+(
+)
+
+00:19:28	Target: -1
+00:19:28	456
+00:19:28	isNotEntry
+00:19:28	Result:
+00:19:28	
+00:19:28	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:19:29	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:20:03	stdClass Object
+(
+    [update_id] => 552018006
+    [message] => stdClass Object
+        (
+            [message_id] => 258
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846003
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:20:03	module/directory2/command.php
+00:20:03	SQLite3 Object
+(
+)
+
+00:20:03	Target: -1
+00:20:03	456
+00:20:03	isNotEntry
+00:20:03	Result:
+00:20:03	
+00:20:03	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:20:04	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:20:35	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:20:35	module/directory2/command.php
+00:20:35	SQLite3 Object
+(
+)
+
+00:20:35	Target: -1
+00:20:35	456
+00:20:35	isNotEntry
+00:20:35	Result:
+00:20:35	
+00:20:38	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:20:38	module/directory2/command.php
+00:20:38	SQLite3 Object
+(
+)
+
+00:20:38	Target: -1
+00:20:38	456
+00:20:38	isNotEntry
+00:20:38	Result:
+00:20:38	
+00:20:42	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:20:42	module/directory2/command.php
+00:20:42	SQLite3 Object
+(
+)
+
+00:20:42	Target: -1
+00:20:42	456
+00:20:42	isNotEntry
+00:20:42	Result:
+00:20:42	
+00:20:51	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:20:51	module/directory2/command.php
+00:20:51	SQLite3 Object
+(
+)
+
+00:20:51	Target: -1
+00:20:51	456
+00:20:51	isNotEntry
+00:20:51	Result:
+00:20:51	
+00:21:07	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:21:07	module/directory2/command.php
+00:21:07	SQLite3 Object
+(
+)
+
+00:21:07	Target: -1
+00:21:07	456
+00:21:07	isNotEntry
+00:21:07	Result:
+00:21:07	
+00:21:40	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:21:40	module/directory2/command.php
+00:21:40	SQLite3 Object
+(
+)
+
+00:21:40	Target: -1
+00:21:40	456
+00:21:40	isNotEntry
+00:21:40	Result:
+00:21:40	
+00:22:40	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:22:40	module/directory2/command.php
+00:22:40	SQLite3 Object
+(
+)
+
+00:22:40	Target: -1
+00:22:40	456
+00:22:40	isNotEntry
+00:22:40	Result:
+00:22:40	
+00:23:41	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:23:41	module/directory2/command.php
+00:23:41	SQLite3 Object
+(
+)
+
+00:23:41	Target: -1
+00:23:41	456
+00:23:41	isNotEntry
+00:23:41	Result:
+00:23:41	
+00:23:56	stdClass Object
+(
+    [update_id] => 552018008
+    [message] => stdClass Object
+        (
+            [message_id] => 260
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846236
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:23:56	module/directory2/command.php
+00:23:56	SQLite3 Object
+(
+)
+
+00:23:56	Target: -1
+00:23:56	456
+00:23:56	isNotEntry
+00:23:56	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:23:58	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:24:25	stdClass Object
+(
+    [update_id] => 552018009
+    [message] => stdClass Object
+        (
+            [message_id] => 261
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846264
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:24:25	module/directory2/command.php
+00:24:25	SQLite3 Object
+(
+)
+
+00:24:25	Target: -1
+00:24:25	456
+00:24:25	isNotEntry
+00:24:25	on9
+00:24:25	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:24:26	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:24:41	stdClass Object
+(
+    [update_id] => 552018007
+    [message] => stdClass Object
+        (
+            [message_id] => 259
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846034
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:24:41	module/directory2/command.php
+00:24:41	SQLite3 Object
+(
+)
+
+00:24:42	Target: -1
+00:24:42	456
+00:24:42	isNotEntry
+00:24:42	on9
+00:24:42	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:24:43	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:26:38	stdClass Object
+(
+    [update_id] => 552018010
+    [message] => stdClass Object
+        (
+            [message_id] => 262
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846397
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:26:38	module/directory2/command.php
+00:26:38	SQLite3 Object
+(
+)
+
+00:26:38	Target: -1
+00:26:38	456
+00:26:38	isNotEntry
+00:26:38	on9
+00:26:38	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:26:39	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:27:55	stdClass Object
+(
+    [update_id] => 552018011
+    [message] => stdClass Object
+        (
+            [message_id] => 263
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846473
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:27:55	module/directory2/command.php
+00:27:55	SQLite3 Object
+(
+)
+
+00:27:55	Target: -1
+00:27:55	456
+00:27:55	isNotEntry
+00:27:55	on9
+00:27:55	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:27:56	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:29:46	stdClass Object
+(
+    [update_id] => 552018012
+    [message] => stdClass Object
+        (
+            [message_id] => 264
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846585
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:29:46	module/directory2/command.php
+00:29:46	SQLite3 Object
+(
+)
+
+00:29:46	Target: -1
+00:29:46	456
+00:29:46	isNotEntry
+00:29:46	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:29:47	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:31:04	stdClass Object
+(
+    [update_id] => 552018013
+    [message] => stdClass Object
+        (
+            [message_id] => 265
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846663
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:31:04	module/directory2/command.php
+00:31:04	SQLite3 Object
+(
+)
+
+00:31:04	Target: -1
+00:31:04	456
+00:31:04	isNotEntry
+00:31:04	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:31:05	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:31:59	stdClass Object
+(
+    [update_id] => 552018014
+    [message] => stdClass Object
+        (
+            [message_id] => 266
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846718
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:31:59	module/directory2/command.php
+00:31:59	SQLite3 Object
+(
+)
+
+00:31:59	Target: -1
+00:31:59	456
+00:31:59	isNotEntry
+00:31:59	Array
+(
+    [callback_query_id] => 
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:32:00	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: QUERY_ID_INVALID"}
+00:36:37	stdClass Object
+(
+    [update_id] => 552018015
+    [message] => stdClass Object
+        (
+            [message_id] => 267
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470846995
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:36:37	module/directory2/command.php
+00:36:37	SQLite3 Object
+(
+)
+
+00:36:37	Target: 0
+00:36:37	456
+00:36:37	isNotEntry
+00:36:37	Hi
+00:36:37	Array
+(
+    [0] => 1
+    [id] => 1
+    [1] => 學院
+    [name] => 學院
+    [2] => 0
+    [parent] => 0
+)
+
+00:36:37	Hi
+00:36:37	Array
+(
+    [0] => 2
+    [id] => 2
+    [1] => 書院
+    [name] => 書院
+    [2] => 0
+    [parent] => 0
+)
+
+00:36:37	Hi
+00:36:37	Array
+(
+    [0] => 3
+    [id] => 3
+    [1] => 行政部門
+    [name] => 行政部門
+    [2] => 0
+    [parent] => 0
+)
+
+00:36:37	Array
+(
+    [chat_id] => 115650817
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+00:36:38	Response:
+{"ok":true,"result":{"message_id":268,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470846998,"text":"\u8acb\u9078\u64c7"}}
+00:36:40	stdClass Object
+(
+    [update_id] => 552018016
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716476992749566
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [text] => 請選擇
+                )
+
+            [data] => directory,1
+        )
+
+)
+
+00:36:40	module/directory/command.php
+00:36:40	Target: 1
+00:36:40	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:36:40	Array
+(
+    [callback_query_id] => 496716476992749566
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:36:42	Response:
+{"ok":true,"result":true}
+00:36:44	stdClass Object
+(
+    [update_id] => 552018017
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716476917158416
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [text] => 請選擇
+                )
+
+            [data] => directory,2
+        )
+
+)
+
+00:36:44	module/directory/command.php
+00:36:44	Target: 2
+00:36:44	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:36:44	Array
+(
+    [callback_query_id] => 496716476917158416
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:36:46	Response:
+{"ok":true,"result":true}
+00:36:47	stdClass Object
+(
+    [update_id] => 552018018
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478606265079
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [text] => 請選擇
+                )
+
+            [data] => directory,3
+        )
+
+)
+
+00:36:47	module/directory/command.php
+00:36:47	Target: 3
+00:36:47	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:36:47	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 4
+            [parent] => 3
+        )
+
+    [name] => 計算機科學與工程學系
+    [tel] => 39438444
+)
+
+00:36:47	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:36:48	Response:
+{"ok":true,"result":{"message_id":268,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470846998,"text":"\u8acb\u9078\u64c7"}}
+00:36:50	stdClass Object
+(
+    [update_id] => 552018019
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478579755379
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847008
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+00:36:50	module/directory/command.php
+00:36:50	Target: 0
+00:36:50	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:36:50	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+00:36:50	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:36:51	Response:
+{"ok":true,"result":{"message_id":268,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470846998,"edit_date":1470847008,"text":"\u8acb\u9078\u64c7"}}
+00:36:53	stdClass Object
+(
+    [update_id] => 552018020
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478030192736
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847011
+                    [text] => 請選擇
+                )
+
+            [data] => directory,-1
+        )
+
+)
+
+00:36:53	module/directory/command.php
+00:36:53	Target: -1
+00:36:53	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:36:53	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 1
+            [parent] => -1
+        )
+
+    [name] => 書院
+)
+
+00:36:53	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 2
+            [parent] => -1
+        )
+
+    [name] => 行政部門
+)
+
+00:36:53	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:36:54	Response:
+{"ok":true,"result":{"message_id":268,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470846998,"edit_date":1470847011,"text":"\u8acb\u9078\u64c7"}}
+00:39:28	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:39:28	module/directory/command.php
+00:39:28	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:39:29	Response:
+{"ok":true,"result":{"message_id":268,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470846998,"edit_date":1470847014,"text":"Operation Cancelled"}}
+00:39:29	Target: 
+00:39:29	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:39:31	stdClass Object
+(
+    [update_id] => 552018022
+    [message] => stdClass Object
+        (
+            [message_id] => 269
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847170
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:39:31	module/directory2/command.php
+00:39:31	SQLite3 Object
+(
+)
+
+00:39:31	Target: 0
+00:39:31	456
+00:39:31	isNotEntry
+00:39:31	Array
+(
+    [chat_id] => 115650817
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+00:39:32	Response:
+{"ok":true,"result":{"message_id":270,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470847172,"text":"\u8acb\u9078\u64c7"}}
+00:39:33	stdClass Object
+(
+    [update_id] => 552018023
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716476960908086
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [text] => 請選擇
+                )
+
+            [data] => directory,1
+        )
+
+)
+
+00:39:33	module/directory/command.php
+00:39:33	Target: 1
+00:39:33	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:39:33	Array
+(
+    [callback_query_id] => 496716476960908086
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:39:35	Response:
+{"ok":true,"result":true}
+00:39:37	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:39:37	module/directory/command.php
+00:39:37	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:39:38	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}
+00:39:38	Target: 
+00:39:38	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:39:46	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:39:46	module/directory/command.php
+00:39:46	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:39:48	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}
+00:39:48	Target: 
+00:39:48	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:40:04	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:40:04	module/directory/command.php
+00:40:04	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:40:05	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}
+00:40:05	Target: 
+00:40:05	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:40:38	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:40:38	module/directory/command.php
+00:40:38	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:40:39	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}
+00:40:39	Target: 
+00:40:39	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:41:26	stdClass Object
+(
+    [update_id] => 552018024
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478298790587
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [text] => 請選擇
+                )
+
+            [data] => directory,1
+        )
+
+)
+
+00:41:26	module/directory/command.php
+00:41:26	Target: 1
+00:41:26	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:41:26	Array
+(
+    [callback_query_id] => 496716478298790587
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:41:27	Response:
+{"ok":true,"result":true}
+00:41:29	stdClass Object
+(
+    [update_id] => 552018025
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477932637516
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [text] => 請選擇
+                )
+
+            [data] => directory,3
+        )
+
+)
+
+00:41:29	module/directory/command.php
+00:41:29	Target: 3
+00:41:29	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:41:29	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 4
+            [parent] => 3
+        )
+
+    [name] => 計算機科學與工程學系
+    [tel] => 39438444
+)
+
+00:41:29	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:41:30	Response:
+{"ok":true,"result":{"message_id":270,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470847172,"text":"\u8acb\u9078\u64c7"}}
+00:41:31	stdClass Object
+(
+    [update_id] => 552018026
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478866011852
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847290
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+00:41:31	module/directory/command.php
+00:41:31	Target: 0
+00:41:31	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:41:31	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+00:41:31	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:41:32	Response:
+{"ok":true,"result":{"message_id":270,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470847172,"edit_date":1470847290,"text":"\u8acb\u9078\u64c7"}}
+00:41:40	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:41:40	module/directory/command.php
+00:41:40	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:41:41	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}
+00:41:41	Target: 
+00:41:41	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:41:41	stdClass Object
+(
+    [update_id] => 552018027
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478799192471
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847292
+                    [text] => 請選擇
+                )
+
+            [data] => directory,-1
+        )
+
+)
+
+00:41:41	module/directory/command.php
+00:41:41	Target: -1
+00:41:41	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:41:41	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 1
+            [parent] => -1
+        )
+
+    [name] => 書院
+)
+
+00:41:41	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 2
+            [parent] => -1
+        )
+
+    [name] => 行政部門
+)
+
+00:41:41	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:41:43	Response:
+{"ok":true,"result":{"message_id":270,"from":{"id":265746448,"first_name":"CUHK Bot","username":"cuhk_bot"},"chat":{"id":115650817,"first_name":"John","last_name":"Chung","username":"chungcf2006","type":"private"},"date":1470847172,"edit_date":1470847292,"text":"\u8acb\u9078\u64c7"}}
+00:42:41	stdClass Object
+(
+    [update_id] => 552018021
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478203643611
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 268
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470846998
+                    [edit_date] => 1470847014
+                    [text] => 請選擇
+                )
+
+            [data] => directory,cancel
+        )
+
+)
+
+00:42:41	module/directory/command.php
+00:42:41	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 268
+    [text] => Operation Cancelled
+    [method] => editMessageText
+)
+
+00:42:43	Response:
+{"ok":false,"error_code":400,"description":"Bad Request: message is not modified"}
+00:42:43	Target: 
+00:42:43	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:46:55	stdClass Object
+(
+    [update_id] => 552018029
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477379227914
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847302
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+00:46:55	module/directory/command.php
+00:46:55	Target: 0
+00:46:55	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:46:55	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+00:46:55	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:46:56	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847302
+            [text] => 請選擇
+        )
+
+)
+
+00:46:58	stdClass Object
+(
+    [update_id] => 552018030
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477452562315
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847616
+                    [text] => 請選擇
+                )
+
+            [data] => directory,-1
+        )
+
+)
+
+00:46:58	module/directory/command.php
+00:46:58	Target: -1
+00:46:58	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:46:58	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 1
+            [parent] => -1
+        )
+
+    [name] => 書院
+)
+
+00:46:58	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 2
+            [parent] => -1
+        )
+
+    [name] => 行政部門
+)
+
+00:46:58	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:46:59	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847616
+            [text] => 請選擇
+        )
+
+)
+
+00:47:07	stdClass Object
+(
+    [update_id] => 552018028
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478645131707
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847302
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+00:47:07	module/directory/command.php
+00:47:07	Target: 0
+00:47:07	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:47:07	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+00:47:07	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:47:08	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847619
+            [text] => 請選擇
+        )
+
+)
+
+00:48:42	stdClass Object
+(
+    [update_id] => 552018031
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478466865675
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847628
+                    [text] => 請選擇
+                )
+
+            [data] => directory,-1
+        )
+
+)
+
+00:48:42	module/directory/command.php
+00:48:42	Target: -1
+00:48:42	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:48:42	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 1
+            [parent] => -1
+        )
+
+    [name] => 書院
+)
+
+00:48:42	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 2
+            [parent] => -1
+        )
+
+    [name] => 行政部門
+)
+
+00:48:42	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:48:44	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847628
+            [text] => 請選擇
+        )
+
+)
+
+00:48:45	stdClass Object
+(
+    [update_id] => 552018032
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477164899808
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847723
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+00:48:45	module/directory/command.php
+00:48:45	Target: 0
+00:48:45	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:48:45	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+00:48:45	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:48:47	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847723
+            [text] => 請選擇
+        )
+
+)
+
+00:48:48	stdClass Object
+(
+    [update_id] => 552018033
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478100773443
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847726
+                    [text] => 請選擇
+                )
+
+            [data] => directory,3
+        )
+
+)
+
+00:48:48	module/directory/command.php
+00:48:48	Target: 3
+00:48:48	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:48:48	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 4
+            [parent] => 3
+        )
+
+    [name] => 計算機科學與工程學系
+    [tel] => 39438444
+)
+
+00:48:48	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:48:50	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847726
+            [text] => 請選擇
+        )
+
+)
+
+00:48:51	stdClass Object
+(
+    [update_id] => 552018034
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478401468505
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 270
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847172
+                    [edit_date] => 1470847729
+                    [text] => 請選擇
+                )
+
+            [data] => directory,4
+        )
+
+)
+
+00:48:51	module/directory/command.php
+00:48:51	Target: 4
+00:48:51	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+00:48:51	isEntry
+00:48:51	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 270
+    [text] => 計算機科學與工程學系
+39438444
+
+    [method] => editMessageText
+)
+
+00:48:52	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 270
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847172
+            [edit_date] => 1470847729
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+00:48:54	stdClass Object
+(
+    [update_id] => 552018035
+    [message] => stdClass Object
+        (
+            [message_id] => 271
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847734
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:48:54	module/directory2/command.php
+00:48:54	Target: 0
+00:48:54	isNotEntry
+00:48:54	Array
+(
+    [chat_id] => 115650817
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory2,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory2,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory2,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory2,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+00:48:56	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 272
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847735
+            [text] => 請選擇
+        )
+
+)
+
+00:48:58	stdClass Object
+(
+    [update_id] => 552018036
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478714542694
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 272
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847735
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,2
+        )
+
+)
+
+00:48:58	module/directory2/command.php
+00:48:58	Target: 2
+00:48:58	isEntry
+00:48:58	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 272
+    [text] => 書院
+
+    [method] => editMessageText
+)
+
+00:48:59	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 272
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847735
+            [text] => 書院
+        )
+
+)
+
+00:50:28	stdClass Object
+(
+    [update_id] => 552018037
+    [message] => stdClass Object
+        (
+            [message_id] => 273
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847826
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:50:28	module/directory2/command.php
+00:50:28	Target: 0
+00:50:28	isNotEntry
+00:50:28	Array
+(
+    [chat_id] => 115650817
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory2,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory2,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory2,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory2,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+00:50:29	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 274
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847829
+            [text] => 請選擇
+        )
+
+)
+
+00:50:31	stdClass Object
+(
+    [update_id] => 552018038
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478295796598
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 274
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470847829
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,3
+        )
+
+)
+
+00:50:31	module/directory2/command.php
+00:50:31	Target: 3
+00:50:31	isEntry
+00:50:31	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 274
+    [text] => 行政部門
+
+    [method] => editMessageText
+)
+
+00:50:32	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 274
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470847829
+            [text] => 行政部門
+        )
+
+)
+
+00:54:16	stdClass Object
+(
+    [update_id] => 552018039
+    [message] => stdClass Object
+        (
+            [message_id] => 275
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470848055
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:54:16	module/directory2/command.php
+00:54:16	Target: 0
+00:54:16	isNotEntry
+00:54:16	Array
+(
+    [chat_id] => 115650817
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory2,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory2,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory2,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory2,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+00:54:18	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 276
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470848058
+            [text] => 請選擇
+        )
+
+)
+
+00:54:19	stdClass Object
+(
+    [update_id] => 552018040
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478659559163
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 276
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470848058
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,2
+        )
+
+)
+
+00:54:19	module/directory2/command.php
+00:54:19	Target: 2
+00:54:19	isNotEntry
+00:54:19	Array
+(
+    [callback_query_id] => 496716478659559163
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:54:21	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => 1
+)
+
+00:54:22	stdClass Object
+(
+    [update_id] => 552018041
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716476974579920
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 276
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470848058
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,3
+        )
+
+)
+
+00:54:22	module/directory2/command.php
+00:54:22	Target: 3
+00:54:22	isNotEntry
+00:54:22	Array
+(
+    [callback_query_id] => 496716476974579920
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+00:54:23	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => 1
+)
+
+00:54:24	stdClass Object
+(
+    [update_id] => 552018042
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477791940158
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 276
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470848058
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,1
+        )
+
+)
+
+00:54:24	module/directory2/command.php
+00:54:24	Target: 1
+00:54:24	isNotEntry
+00:54:25	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 276
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory2,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:54:26	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 276
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470848058
+            [text] => 請選擇
+        )
+
+)
+
+00:54:27	stdClass Object
+(
+    [update_id] => 552018043
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477392419639
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 276
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470848058
+                    [edit_date] => 1470848066
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,4
+        )
+
+)
+
+00:54:27	module/directory2/command.php
+00:54:27	Target: 4
+00:54:27	isNotEntry
+00:54:27	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 276
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory2,5
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:54:28	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 276
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470848058
+            [edit_date] => 1470848066
+            [text] => 請選擇
+        )
+
+)
+
+00:54:29	stdClass Object
+(
+    [update_id] => 552018044
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477929212818
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 276
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470848058
+                    [edit_date] => 1470848068
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,5
+        )
+
+)
+
+00:54:29	module/directory2/command.php
+00:54:29	Target: 5
+00:54:29	isEntry
+00:54:29	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 276
+    [text] => 計算機科學與工程學系
+39438444
+    [method] => editMessageText
+)
+
+00:54:31	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 276
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470848058
+            [edit_date] => 1470848068
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+00:54:50	stdClass Object
+(
+    [update_id] => 552018045
+    [message] => stdClass Object
+        (
+            [message_id] => 833
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470848090
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+00:54:50	module/directory2/command.php
+00:54:50	Target: 0
+00:54:50	isNotEntry
+00:54:50	Array
+(
+    [chat_id] => -1001060025900
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory2,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory2,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory2,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory2,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+00:54:52	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 834
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470848091
+            [text] => 請選擇
+        )
+
+)
+
+00:55:01	stdClass Object
+(
+    [update_id] => 552018046
+    [callback_query] => stdClass Object
+        (
+            [id] => 764798003462736135
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 834
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470848091
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,1
+        )
+
+)
+
+00:55:01	module/directory2/command.php
+00:55:01	Target: 1
+00:55:01	isNotEntry
+00:55:01	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 834
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory2,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:55:02	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 834
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470848091
+            [text] => 請選擇
+        )
+
+)
+
+00:55:04	stdClass Object
+(
+    [update_id] => 552018047
+    [callback_query] => stdClass Object
+        (
+            [id] => 764798001947824615
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 834
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470848091
+                    [edit_date] => 1470848102
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,4
+        )
+
+)
+
+00:55:04	module/directory2/command.php
+00:55:04	Target: 4
+00:55:04	isNotEntry
+00:55:04	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 834
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory2,5
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+00:55:06	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 834
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470848091
+            [edit_date] => 1470848102
+            [text] => 請選擇
+        )
+
+)
+
+00:55:07	stdClass Object
+(
+    [update_id] => 552018048
+    [callback_query] => stdClass Object
+        (
+            [id] => 764798002923772176
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 834
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470848091
+                    [edit_date] => 1470848105
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,5
+        )
+
+)
+
+00:55:07	module/directory2/command.php
+00:55:07	Target: 5
+00:55:07	isEntry
+00:55:07	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 834
+    [text] => 計算機科學與工程學系
+39438444
+    [method] => editMessageText
+)
+
+00:55:08	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 834
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470848091
+            [edit_date] => 1470848105
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+08:13:43	stdClass Object
+(
+    [update_id] => 552018049
+    [callback_query] => stdClass Object
+        (
+            [id] => 143906939539510559
+            [from] => stdClass Object
+                (
+                    [id] => 33505945
+                    [first_name] => Energy
+                    [last_name] => Ling
+                    [username] => Energy0124
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 691
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470825009
+                    [edit_date] => 1470825159
+                    [text] => 計算機科學與工程學系
+39438444
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+08:13:43	module/directory/command.php
+08:13:43	Target: 0
+08:13:43	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:13:43	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+08:13:43	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 691
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:13:45	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 691
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470825009
+            [edit_date] => 1470825159
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+08:27:26	stdClass Object
+(
+    [update_id] => 552018050
+    [message] => stdClass Object
+        (
+            [message_id] => 856
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875244
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+08:27:26	module/directory2/command.php
+08:27:26	Target: 0
+08:27:26	isNotEntry
+08:27:26	Array
+(
+    [chat_id] => -1001060025900
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory2,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory2,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory2,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory2,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+08:27:27	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 857
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875247
+            [text] => 請選擇
+        )
+
+)
+
+08:27:30	stdClass Object
+(
+    [update_id] => 552018051
+    [callback_query] => stdClass Object
+        (
+            [id] => 453055656700239922
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 857
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470875247
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,1
+        )
+
+)
+
+08:27:30	module/directory2/command.php
+08:27:30	Target: 1
+08:27:30	isNotEntry
+08:27:30	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 857
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory2,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:27:31	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 857
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875247
+            [text] => 請選擇
+        )
+
+)
+
+08:27:33	stdClass Object
+(
+    [update_id] => 552018052
+    [callback_query] => stdClass Object
+        (
+            [id] => 453055656312056306
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 857
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470875247
+                    [edit_date] => 1470875251
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,4
+        )
+
+)
+
+08:27:33	module/directory2/command.php
+08:27:33	Target: 4
+08:27:33	isNotEntry
+08:27:33	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 857
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory2,5
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:27:34	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 857
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875247
+            [edit_date] => 1470875251
+            [text] => 請選擇
+        )
+
+)
+
+08:27:36	stdClass Object
+(
+    [update_id] => 552018053
+    [callback_query] => stdClass Object
+        (
+            [id] => 453055656741156023
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 857
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470875247
+                    [edit_date] => 1470875254
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,5
+        )
+
+)
+
+08:27:36	module/directory2/command.php
+08:27:36	Target: 5
+08:27:36	isEntry
+08:27:36	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 857
+    [text] => 計算機科學與工程學系
+39438444
+    [method] => editMessageText
+)
+
+08:27:37	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 857
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875247
+            [edit_date] => 1470875254
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+08:27:46	stdClass Object
+(
+    [update_id] => 552018054
+    [message] => stdClass Object
+        (
+            [message_id] => 858
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875265
+            [text] => /directory
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 10
+                        )
+
+                )
+
+        )
+
+)
+
+08:27:46	module/directory/command.php
+08:27:46	Target: -1
+08:27:46	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:27:46	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 1
+            [parent] => -1
+        )
+
+    [name] => 書院
+)
+
+08:27:46	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 2
+            [parent] => -1
+        )
+
+    [name] => 行政部門
+)
+
+08:27:46	Array
+(
+    [chat_id] => -1001060025900
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+08:27:47	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 859
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875267
+            [text] => 請選擇
+        )
+
+)
+
+08:27:49	stdClass Object
+(
+    [update_id] => 552018055
+    [callback_query] => stdClass Object
+        (
+            [id] => 453055658101971709
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 859
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470875267
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+08:27:49	module/directory/command.php
+08:27:49	Target: 0
+08:27:49	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:27:49	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+08:27:49	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 859
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:27:50	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 859
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875267
+            [text] => 請選擇
+        )
+
+)
+
+08:27:52	stdClass Object
+(
+    [update_id] => 552018056
+    [callback_query] => stdClass Object
+        (
+            [id] => 453055656267131991
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 859
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470875267
+                    [edit_date] => 1470875270
+                    [text] => 請選擇
+                )
+
+            [data] => directory,3
+        )
+
+)
+
+08:27:52	module/directory/command.php
+08:27:52	Target: 3
+08:27:52	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:27:52	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 4
+            [parent] => 3
+        )
+
+    [name] => 計算機科學與工程學系
+    [tel] => 39438444
+)
+
+08:27:52	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 859
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:27:53	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 859
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875267
+            [edit_date] => 1470875270
+            [text] => 請選擇
+        )
+
+)
+
+08:27:55	stdClass Object
+(
+    [update_id] => 552018057
+    [callback_query] => stdClass Object
+        (
+            [id] => 453055656894705328
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 859
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470875267
+                    [edit_date] => 1470875273
+                    [text] => 請選擇
+                )
+
+            [data] => directory,4
+        )
+
+)
+
+08:27:55	module/directory/command.php
+08:27:55	Target: 4
+08:27:55	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:27:55	isEntry
+08:27:55	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 859
+    [text] => 計算機科學與工程學系
+39438444
+
+    [method] => editMessageText
+)
+
+08:27:56	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 859
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470875267
+            [edit_date] => 1470875273
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+08:54:40	stdClass Object
+(
+    [update_id] => 552018058
+    [message] => stdClass Object
+        (
+            [message_id] => 872
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470876878
+            [text] => /directory2
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 11
+                        )
+
+                )
+
+        )
+
+)
+
+08:54:40	module/directory2/command.php
+08:54:40	Target: 0
+08:54:40	isNotEntry
+08:54:40	Array
+(
+    [chat_id] => -1001060025900
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory2,1
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory2,2
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory2,3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory2,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+08:54:41	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 873
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470876881
+            [text] => 請選擇
+        )
+
+)
+
+08:54:43	stdClass Object
+(
+    [update_id] => 552018059
+    [callback_query] => stdClass Object
+        (
+            [id] => 764798003496366252
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 873
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470876881
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,1
+        )
+
+)
+
+08:54:43	module/directory2/command.php
+08:54:43	Target: 1
+08:54:43	isNotEntry
+08:54:43	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 873
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory2,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:54:45	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 873
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470876881
+            [text] => 請選擇
+        )
+
+)
+
+08:54:46	stdClass Object
+(
+    [update_id] => 552018060
+    [callback_query] => stdClass Object
+        (
+            [id] => 764798003512316422
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 873
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470876881
+                    [edit_date] => 1470876884
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,4
+        )
+
+)
+
+08:54:46	module/directory2/command.php
+08:54:46	Target: 4
+08:54:46	isNotEntry
+08:54:46	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 873
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory2,5
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory2,
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:54:48	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 873
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470876881
+            [edit_date] => 1470876884
+            [text] => 請選擇
+        )
+
+)
+
+08:54:49	stdClass Object
+(
+    [update_id] => 552018061
+    [callback_query] => stdClass Object
+        (
+            [id] => 764798002705792357
+            [from] => stdClass Object
+                (
+                    [id] => 178068411
+                    [first_name] => 失暈魚
+                    [username] => SaiyLB
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 873
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => -1001060025900
+                            [title] => CUHK Telegram Bot Dev Team
+                            [type] => supergroup
+                        )
+
+                    [date] => 1470876881
+                    [edit_date] => 1470876887
+                    [text] => 請選擇
+                )
+
+            [data] => directory2,5
+        )
+
+)
+
+08:54:49	module/directory2/command.php
+08:54:49	Target: 5
+08:54:49	isEntry
+08:54:49	Array
+(
+    [chat_id] => -1001060025900
+    [message_id] => 873
+    [text] => 計算機科學與工程學系
+39438444
+    [method] => editMessageText
+)
+
+08:54:50	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 873
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => -1001060025900
+                    [title] => CUHK Telegram Bot Dev Team
+                    [type] => supergroup
+                )
+
+            [date] => 1470876881
+            [edit_date] => 1470876887
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+08:59:49	stdClass Object
+(
+    [update_id] => 552018062
+    [message] => stdClass Object
+        (
+            [message_id] => 277
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470877188
+            [text] => /directory
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 10
+                        )
+
+                )
+
+        )
+
+)
+
+08:59:49	module/directory/command.php
+08:59:49	Target: -1
+08:59:49	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:59:49	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 1
+            [parent] => -1
+        )
+
+    [name] => 書院
+)
+
+08:59:49	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 2
+            [parent] => -1
+        )
+
+    [name] => 行政部門
+)
+
+08:59:49	Array
+(
+    [chat_id] => 115650817
+    [text] => 請選擇
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 學院
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 書院
+                                    [callback_data] => directory,1
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 行政部門
+                                    [callback_data] => directory,2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ❌退出
+                                    [callback_data] => directory,cancel
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => sendMessage
+)
+
+08:59:50	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 278
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470877190
+            [text] => 請選擇
+        )
+
+)
+
+08:59:52	stdClass Object
+(
+    [update_id] => 552018063
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477535777055
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 278
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470877190
+                    [text] => 請選擇
+                )
+
+            [data] => directory,1
+        )
+
+)
+
+08:59:52	module/directory/command.php
+08:59:52	Target: 1
+08:59:52	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:59:52	Array
+(
+    [callback_query_id] => 496716477535777055
+    [text] => No Entry Found
+    [method] => answerCallbackQuery
+)
+
+08:59:53	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => 1
+)
+
+08:59:56	stdClass Object
+(
+    [update_id] => 552018064
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716478756894641
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 278
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470877190
+                    [text] => 請選擇
+                )
+
+            [data] => directory,0
+        )
+
+)
+
+08:59:56	module/directory/command.php
+08:59:56	Target: 0
+08:59:56	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+08:59:56	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 3
+            [parent] => 0
+        )
+
+    [name] => 工程學院
+)
+
+08:59:56	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 278
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 工程學院
+                                    [callback_data] => directory,3
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,-1
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+08:59:58	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 278
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470877190
+            [text] => 請選擇
+        )
+
+)
+
+09:00:00	stdClass Object
+(
+    [update_id] => 552018065
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477065749824
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 278
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470877190
+                    [edit_date] => 1470877197
+                    [text] => 請選擇
+                )
+
+            [data] => directory,3
+        )
+
+)
+
+09:00:00	module/directory/command.php
+09:00:00	Target: 3
+09:00:00	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+09:00:00	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 4
+            [parent] => 3
+        )
+
+    [name] => 計算機科學與工程學系
+    [tel] => 39438444
+)
+
+09:00:00	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 278
+    [reply_markup] => Array
+        (
+            [inline_keyboard] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => 計算機科學與工程學系
+                                    [callback_data] => directory,4
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [text] => ⬅️返回
+                                    [callback_data] => directory,0
+                                )
+
+                        )
+
+                )
+
+            [resize_keyboard] => 1
+            [one_time_keyboard] => 1
+        )
+
+    [method] => editMessageReplyMarkup
+)
+
+09:00:01	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 278
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470877190
+            [edit_date] => 1470877197
+            [text] => 請選擇
+        )
+
+)
+
+09:00:02	stdClass Object
+(
+    [update_id] => 552018066
+    [callback_query] => stdClass Object
+        (
+            [id] => 496716477554441499
+            [from] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                )
+
+            [message] => stdClass Object
+                (
+                    [message_id] => 278
+                    [from] => stdClass Object
+                        (
+                            [id] => 265746448
+                            [first_name] => CUHK Bot
+                            [username] => cuhk_bot
+                        )
+
+                    [chat] => stdClass Object
+                        (
+                            [id] => 115650817
+                            [first_name] => John
+                            [last_name] => Chung
+                            [username] => chungcf2006
+                            [type] => private
+                        )
+
+                    [date] => 1470877190
+                    [edit_date] => 1470877201
+                    [text] => 請選擇
+                )
+
+            [data] => directory,4
+        )
+
+)
+
+09:00:02	module/directory/command.php
+09:00:02	Target: 4
+09:00:02	SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 0
+            [parent] => -1
+        )
+
+    [name] => 學院
+)
+
+09:00:02	isEntry
+09:00:02	Array
+(
+    [chat_id] => 115650817
+    [message_id] => 278
+    [text] => 計算機科學與工程學系
+39438444
+
+    [method] => editMessageText
+)
+
+09:00:03	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 278
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 115650817
+                    [first_name] => John
+                    [last_name] => Chung
+                    [username] => chungcf2006
+                    [type] => private
+                )
+
+            [date] => 1470877190
+            [edit_date] => 1470877201
+            [text] => 計算機科學與工程學系
+39438444
+        )
+
+)
+
+09:42:07	stdClass Object
+(
+    [update_id] => 552018067
+    [message] => stdClass Object
+        (
+            [message_id] => 279
+            [from] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                    [type] => private
+                )
+
+            [date] => 1470879726
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [type] => bot_command
+                            [offset] => 0
+                            [length] => 6
+                        )
+
+                )
+
+        )
+
+)
+
+09:42:07	module/start/command.php
+09:42:07	Array
+(
+    [chat_id] => 105485240
+    [text] => Welcome to CUHK Bot!
+    [method] => sendMessage
+)
+
+09:42:08	Response:
+stdClass Object
+(
+    [ok] => 1
+    [result] => stdClass Object
+        (
+            [message_id] => 280
+            [from] => stdClass Object
+                (
+                    [id] => 265746448
+                    [first_name] => CUHK Bot
+                    [username] => cuhk_bot
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 105485240
+                    [first_name] => Kelvin
+                    [last_name] => Ng
+                    [username] => kelvin_ng
+                    [type] => private
+                )
+
+            [date] => 1470879728
+            [text] => Welcome to CUHK Bot!
+        )
+
+)
+

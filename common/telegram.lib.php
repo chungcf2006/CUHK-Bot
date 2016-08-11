@@ -15,6 +15,7 @@
 		fwrite($logFile, date("H:i:s\t"));
 		fwrite($logFile, print_r($message, TRUE)."\n");
 		fclose($logFile);
+		chmod("log/".$date.".txt", 0644);
 	}
 
 	function sendSticker($file_id){
@@ -47,7 +48,6 @@
 			"photo" => $photo,
 			"caption" => $caption
 		);
-		writeLog(print_r($payload_array, TRUE));
 		request("sendPhoto", $payload_array);
 	}
 
@@ -108,13 +108,14 @@
 
 		$parameters["method"] = $method;
 
+		writeLog($parameters);
 		$ch = curl_init(API_URL);
 		//Only enable the following line when the server require a Proxy server for Internet connection
 		curl_setopt($ch, CURLOPT_PROXY, PROXY);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
-		writelog("Response:\n".curl_exec($ch));
+		writelog("Response:\n".print_r(json_decode(curl_exec($ch)),TRUE));
 		curl_close($ch);
 		return true;
 
