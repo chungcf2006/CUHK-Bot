@@ -1,10 +1,23 @@
 <?php
-	
-	$xml = simplexml_load_file("module/directory/data.xml");
-	global $callbackData, $message_id, $data;
+	$db = new PDO("sqlite:database.sqlite");
+	global $callbackData, $message_id, $data, $command_opt;
 
 	if(!isset($callbackData)){
-		$target = -1;
+		$command_opt = trim($command_opt);
+		writeLog("Alias: ".$command_opt);
+		if ($command_opt == "") {
+			$target = 0;
+		} else {
+			$statement = $db->prepare('SELECT id FROM directory_alias WHERE alias = ?');
+			$statement->bindParam(1, $command_opt);
+			$statement->execute();
+			if ($statement->columnCount() > 0) {
+				$target = (int)$statement->fetchColumn();
+			} else {
+				sendMessage("No Entry Found");
+				exit();
+			}
+		}
 	} else {
 		$callbackData = explode(",", $callbackData);
 		if ($callbackData[1] == "cancel")
@@ -14,9 +27,11 @@
 	}
 
 	writeLog("Target: ".$target);
-	if ($target != -1){
-		writeLog($xml->entry[0]);
-		$isEntry = ($xml->entry[$target]->count() > 1);
+	if ($target != 0){
+		$statement = $db->prepare('SELECT isEntry FROM directory WHERE id = ?');
+		$statement->bindParam(1, $target, PDO::PARAM_INT);
+		$statement->execute();
+		$isEntry = $statement->fetchColumn();
 	} else {
 		$isEntry = FALSE;
 	}
@@ -24,44 +39,51 @@
 
 	if ($isEntry) {
 		writeLog("isEntry");
-		foreach($xml->children() as $child) {
-			$attributes = $child->attributes();
-			if($attributes["id"] == $target){
-				$description = (string)$child->name[0]."\n";
-				foreach($child->tel as $tel){
-					$description .= $tel."\n";
-					editMessageText($data->callback_query->message->message_id, $description);
-				}
-			}
-		}
-	} else {	
-		
+		$statement = $db->prepare('SELECT * FROM directory WHERE id = ?');
+		$statement->bindParam(1, $target, PDO::PARAM_INT);
+		$statement->execute();
+		$item = $statement->fetch();
+
+		$description = "*".$item["name"]."*\n";
+		$description .= "🏛 地址： ".$item["location"]."\n";
+		$description .= "☎️ 電話： ".$item["tel"]."\n";
+		$description .= "📠 傳真： ".$item["fax"]."\n";
+		$description .= "📧 電郵： ".$item["email"]."\n";
+		$description .= "🖥 網頁： ".$item["homepage"]."\n";
+
+		if (isset($data->callback_query))
+			editMessageText($data->callback_query->message->message_id, $description);
+		else
+			sendMessage($description);
+	} else {
 		$count = 0;
 		$keyboard_content = array();
 		
-		foreach ($xml->children() as $child) {
-			$attribute = $child->attributes();
-			
-			if ($attribute["parent"] == $target){
-				$count++;
-				writeLog(print_r($child, TRUE));
-				array_push($keyboard_content, array(
-					array(
-						"text" => (string)$child->name,
-						"callback_data" => "directory,".(string)$attribute->id
-					)
-				));
-			}
+		$statement = $db->prepare('SELECT id, name FROM directory WHERE parent = ?');
+		$statement->bindParam(1, $target, PDO::PARAM_INT);
+		$statement->execute();
+		$items = $statement->fetchAll();
+
+		foreach ($items as $item) {
+			$count++;
+			array_push($keyboard_content, array(
+				array(
+					"text" => (string)$item["name"],
+					"callback_data" => "directory,".(string)$item["id"]
+				)
+			));
 		}
 		
-		$parent = $xml->entry[$target]->attributes();
-		$parent = $parent["parent"];
-		
-		if ($target != -1){
+		if ($target != 0){
+			$statement = $db->prepare('SELECT parent FROM directory WHERE id = ?');
+			$statement->bindParam(1, $target, PDO::PARAM_INT);
+			$statement->execute();
+			$item = $statement->fetch();
+
 			array_push($keyboard_content, array(
 				array(
 					"text" => "⬅️返回",
-					"callback_data" => "directory,".$parent
+					"callback_data" => "directory,".$item["parent"]
 				)
 			));
 		} else {
@@ -85,10 +107,14 @@
 				"one_time_keyboard" => TRUE
 
 			);
-		if (isset($data->callback_query))
+		if (isset($data->callback_query)){
 			editMessageReplyMarkup($data->callback_query->message->message_id, $keyboardArray);
-		else
-			sendKeyboard("請選擇", $keyboardArray);
+		} else {
+			$prompt = "*歡迎使用中大通訊錄*\n\n";
+			$prompt .= "免責聲明：本通訊錄所載資訊均為人手搜集所得，CUHK Bot不保證所載資料準確。\n\n";
+			$prompt .= "請選擇項目";
+			sendKeyboard($prompt, $keyboardArray);
+		}
 	}
 
 ?>

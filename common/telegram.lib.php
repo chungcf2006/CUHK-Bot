@@ -32,7 +32,8 @@
 		global $chat_id;
 		$payload_array = array(
 			"chat_id" => $chat_id,
-			"text" => $message
+			"text" => $message,
+			"parse_mode" => "Markdown"
 		);
 		request("sendMessage", $payload_array);
 	}
@@ -55,7 +56,8 @@
 		$payload_array = array(
 			"chat_id" => $chat_id,
 			"text" => $message,
-			"reply_markup" => $keyboardArray
+			"reply_markup" => $keyboardArray,
+			"parse_mode" => "Markdown"
 		);
 		request("sendMessage", $payload_array);
 	}
@@ -66,7 +68,8 @@
 		$payload_array = array(
 			"chat_id" => $chat_id,
 			"message_id" => $message_id,
-			"text" => $message
+			"text" => $message,
+			"parse_mode" => "Markdown"
 		);
 		request("editMessageText", $payload_array);
 	}
