@@ -1,5 +1,5 @@
 <?php
-        include("config.php");
+        include("common/config.php");
 
 	global $chat_id, $data, $receivedMessage, $db;
 	
