@@ -1,5 +1,5 @@
 <?php
-	$db = new SQLite3("database.sqlite");
+	$db = new PDO("sqlite:database.sqlite");
 	global $callbackData, $message_id, $data;
 
 	if(!isset($callbackData)){
@@ -14,46 +14,54 @@
 
 	writeLog("Target: ".$target);
 	if ($target != 0){
-		$query = $db->prepare('SELECT isEntry FROM directory WHERE id = ?');
-		$query->bindValue(1, $target, SQLITE3_INTEGER);
-		$result = $query->execute()->fetchArray();
-		$isEntry = $result["isEntry"];
+		$statement = $db->prepare('SELECT COUNT(*) FROM directory WHERE parent = ?');
+		$statement->bindParam(1, $target, PDO::PARAM_INT);
+		$statement->execute();
+		$count = $statement->fetchColumn();
+		$isEntry = ($count == 0);
 	} else {
 		$isEntry = FALSE;
 	}
-
+	
 
 	if ($isEntry) {
 		writeLog("isEntry");
-		$query = $db->prepare('SELECT name, tel FROM directory WHERE id = ?');
-		$query->bindValue(1, $target, SQLITE3_INTEGER);
-		$item = $query->execute()->fetchArray();
-		$description = (string)$item["name"]."\n".$item["tel"];
+		$statement = $db->prepare('SELECT name, tel FROM directory WHERE id = ?');
+		$statement->bindParam(1, $target, PDO::PARAM_INT);
+		$statement->execute();
+		$item = $statement->fetch();
+
+		$description = (string)$item["name"]."\n".(string)$item["tel"];
 		editMessageText($data->callback_query->message->message_id, $description);
 	} else {	
-		writeLog("isNotEntry");
 		$count = 0;
-		$keyboard_content = array();		
-		$query = $db->prepare('SELECT id, name FROM directory WHERE parent = ?');
-		$query->bindValue(1, $target, SQLITE3_INTEGER);
-		$result = $query->execute();
-		while ($item = $result->fetchArray()) {
+		$keyboard_content = array();
+		
+		$statement = $db->prepare('SELECT id, name FROM directory WHERE parent = ?');
+		$statement->bindParam(1, $target, PDO::PARAM_INT);
+		$statement->execute();
+		$items = $statement->fetchAll();
+
+		foreach ($items as $item) {
 			$count++;
 			array_push($keyboard_content, array(
 				array(
-					"text" => $item["name"],
-					"callback_data" => "directory2,".$item["id"]
+					"text" => (string)$item["name"],
+					"callback_data" => "directory2,".(string)$item["id"]
 				)
 			));
 		}
 		
 		if ($target != 0){
-			$parent = $db->querySingle('SELECT parent FROM directory WHERE id = ?');
+			$statement = $db->prepare('SELECT parent FROM directory WHERE id = ?');
+			$statement->bindParam(1, $target, PDO::PARAM_INT);
+			$statement->execute();
+			$item = $statement->fetch();
 
 			array_push($keyboard_content, array(
 				array(
 					"text" => "⬅️返回",
-					"callback_data" => "directory2,".$parent
+					"callback_data" => "directory2,".$item["parent"]
 				)
 			));
 		} else {
@@ -65,6 +73,7 @@
 			));
 		}
 		
+
 		if ($count <= 0){
 			answerCallbackQuery($data->callback_query->id, "No Entry Found");
 			exit();
