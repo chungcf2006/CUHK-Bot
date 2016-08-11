@@ -1,9 +1,23 @@
 <?php
 	$db = new PDO("sqlite:database.sqlite");
-	global $callbackData, $message_id, $data;
+	global $callbackData, $message_id, $data, $command_opt;
 
 	if(!isset($callbackData)){
-		$target = 0;
+		$command_opt = trim($command_opt);
+		writeLog("Alias: ".$command_opt);
+		if ($command_opt == "") {
+			$target = 0;
+		} else {
+			$statement = $db->prepare('SELECT id FROM directory_alias WHERE alias = ?');
+			$statement->bindParam(1, $command_opt);
+			$statement->execute();
+			if ($statement->columnCount() > 0) {
+				$target = (int)$statement->fetchColumn();
+			} else {
+				sendMessage("No Entry Found");
+				exit();
+			}
+		}
 	} else {
 		$callbackData = explode(",", $callbackData);
 		if ($callbackData[1] == "cancel")
@@ -14,11 +28,10 @@
 
 	writeLog("Target: ".$target);
 	if ($target != 0){
-		$statement = $db->prepare('SELECT COUNT(*) FROM directory WHERE parent = ?');
+		$statement = $db->prepare('SELECT isEntry FROM directory WHERE id = ?');
 		$statement->bindParam(1, $target, PDO::PARAM_INT);
 		$statement->execute();
-		$count = $statement->fetchColumn();
-		$isEntry = ($count == 0);
+		$isEntry = $statement->fetchColumn();
 	} else {
 		$isEntry = FALSE;
 	}
@@ -32,7 +45,10 @@
 		$item = $statement->fetch();
 
 		$description = (string)$item["name"]."\n".(string)$item["tel"];
-		editMessageText($data->callback_query->message->message_id, $description);
+		if (isset($data->callback_query))
+			editMessageText($data->callback_query->message->message_id, $description);
+		else
+			sendMessage($description);
 	} else {	
 		$count = 0;
 		$keyboard_content = array();

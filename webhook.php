@@ -21,10 +21,14 @@
 		if (isset($data->message->entities)){
 			foreach($data->message->entities as $entity){
 				if ($entity->type == "bot_command")
-					if (strpos($receivedMessage, "@") === FALSE)
+					if (strpos($receivedMessage, "@") === FALSE) {
 						$command = substr($receivedMessage, $entity->offset+1, $entity->length-1);
-					else
+						$command_opt = substr($receivedMessage, $entity->offset + $entity->length);
+					}
+					else {
 						$command = substr($receivedMessage, $entity->offset+1, strpos($receivedMessage, "@")-$entity->offset-1);
+						$command_opt = substr($receivedMessage, $entity->length + 1);
+					}
 			}
 		}
 	}	
