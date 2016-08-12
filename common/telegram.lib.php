@@ -1,5 +1,5 @@
 <?php
-        include("common/config.php");
+		include("common/config.php");
 
 	global $chat_id, $data, $receivedMessage, $db;
 	
@@ -116,7 +116,11 @@
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
-		writelog("Response:\n".print_r(json_decode(curl_exec($ch)),TRUE));
+		if(($response = curl_exec($ch)) === false)
+			echo 'Curl error: ' . curl_error($ch);
+		else
+			echo 'Operation completed without any errors';
+		writelog("Response:\n".print_r(json_decode($response),TRUE));
 		curl_close($ch);
 		return true;
 
