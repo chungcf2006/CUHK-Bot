@@ -1,5 +1,5 @@
 <?php
-		include("common/config.php");
+	include("common/config.php");
 
 	global $chat_id, $data, $receivedMessage, $db;
 	
@@ -95,6 +95,7 @@
 	}
 
 	function request($method, $parameters){
+		global $ch;
 		if (!is_string($method)) {
 			//Method name must be a string
 			return false;
@@ -110,9 +111,7 @@
 		$parameters["method"] = $method;
 
 		writeLog($parameters);
-		$ch = curl_init(API_URL);
-		//Only enable the following line when the server require a Proxy server for Internet connection
-		curl_setopt($ch, CURLOPT_PROXY, PROXY);
+		
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
