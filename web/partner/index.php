@@ -10,9 +10,9 @@
 	</head>
 	<body>
 		<div class="container-fluid center-block">
-			<h1>CUHK Bot</h1>
-			<a href="secret.php" class="btn btn-danger">Post a Secret</a>
-			<a class="btn btn-success">Find a Partner</a>
+			<h1>CUHK Bot - Find my Partner</h1>
+			<a href="hostal" class="btn btn-primary">Hostal</a>
+			<a href="fyp" class="btn btn-success">FYP</a>
 		</div>
 	</body>
 </html>

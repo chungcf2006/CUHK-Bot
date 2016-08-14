@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<hostals>
+	<college id="CC" name="崇基學院">
+		<hostal id="1" name="應林堂" sex="M" />
+		<hostal id="2" name="華連堂" sex="F" />
+		<hostal id="3" name="明華堂" sex="M,F" />
+		<hostal id="4" name="文林堂" sex="M,F" />
+		<hostal id="5" name="何善衡夫人宿舍" sex="M,F" />
+		<hostal id="6" name="文質堂" sex="F" />
+		<hostal id="7" name="利樹培堂" sex="M,F" />
+		<hostal id="8" name="五旬節會樓（高座）" sex="M,F" />
+		<hostal id="9" name="五旬節會樓（低座）" sex="F" />
+		<hostal id="10" name="神學樓" sex="M,F" />
+	</college>
+	<college id="NA" name="新亞書院">
+		<hostal id="11" name="知行樓" sex="M" />
+		<hostal id="12" name="學思樓" sex="F" />
+		<hostal id="13" name="志文樓" sex="M,F" />
+		<hostal id="14" name="紫霞樓" sex="M,F" />
+	</college>
+	<college id="UC" name="聯合書院">
+		<hostal id="15" name="湯若望宿舍" sex="M,F" />
+		<hostal id="16" name="伯利衡宿舍" sex="M,F" />
+		<hostal id="17" name="恒生樓" sex="M,F" />
+		<hostal id="18" name="陳震夏宿舍" sex="M,F" />
+	</college>
+	<college id="SC" name="逸夫書院">
+		<hostal id="19" name="國楙樓" sex="M,F" />
+		<hostal id="20" name="第二學生宿舍（高座）" sex="M,F" />
+		<hostal id="21" name="第二學生宿舍（低座）" sex="M,F" />
+	</college>
+	<college id="WS" name="和聲書院">
+		<hostal id="22" name="南座" sex="M,F" />
+		<hostal id="23" name="北座" sex="M,F" />
+	</college>
+	<college id="WYS" name="伍宜孫書院">
+		<hostal id="24" name="東座" sex="M,F" />
+		<hostal id="25" name="西座" sex="M,F" />
+	</college>
+	<college id="SHHO" name="善衡書院">
+		<hostal id="26" name="何添堂" sex="M,F" />
+		<hostal id="27" name="利國偉堂" sex="M,F" />
+	</college>
+	<college id="MC" name="晨興書院">
+		<hostal id="28" name="格林伯格樓" sex="M,F" />
+		<hostal id="29" name="高座" sex="M,F" />
+	</college>
+	<college id="CW" name="敬文書院">
+		<hostal id="30" name="何陳婉珍樓" sex="M,F" />
+		<hostal id="31" name="朱謝玲玲樓" sex="M,F" />
+	</college>
+</hostals>

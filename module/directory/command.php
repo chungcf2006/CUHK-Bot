@@ -2,6 +2,19 @@
 	$db = new PDO("sqlite:database.sqlite");
 	global $callbackData, $message_id, $data, $command_opt;
 
+	function path_find($id){
+		global $db;
+		if ($id != 0){
+			$statement = $db->prepare('SELECT name, parent FROM directory WHERE id = ?');
+			$statement->bindParam(1, $id);
+			$statement->execute();
+			$row = $statement->fetch();
+			return path_find($row["parent"])."/".$row["name"];
+		} else {
+			return $row["name"];
+		}
+	}
+
 	if(!isset($callbackData)){
 		$command_opt = trim($command_opt);
 		writeLog("Alias: ".$command_opt);
@@ -44,7 +57,7 @@
 		$statement->execute();
 		$item = $statement->fetch();
 
-		$description = "*".$item["name"]."*\n";
+		$description = "*".trim(path_find($item["id"]), "/")."*\n";
 		$description .= "🏛 地址： ".$item["location"]."\n";
 		$description .= "☎️ 電話： ".$item["tel"]."\n";
 		$description .= "📠 傳真： ".$item["fax"]."\n";
