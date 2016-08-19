@@ -1,10 +1,12 @@
 <?php
+	ini_set("log_errors", 1);
+	ini_set("error_log", "log/".date("Y-m-d").".txt");
 	include("common/config.php");
 
-	global $chat_id, $data, $receivedMessage, $db;
+	global $chat_id, $data, $receivedMessage;
 	
 	//Create global $db variable
-	
+	$db = new PDO("sqlite:database.sqlite");
 
 	function writeLog($message){
 		//Write log into log file

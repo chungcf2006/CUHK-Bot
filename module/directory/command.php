@@ -1,5 +1,4 @@
 <?php
-	$db = new PDO("sqlite:database.sqlite");
 	global $callbackData, $message_id, $data, $command_opt;
 
 	function path_find($id){
