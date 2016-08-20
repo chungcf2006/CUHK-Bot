@@ -1,6 +1,4 @@
 <?php
-	ini_set("log_errors", 1);
-	ini_set("error_log", "log/".date("Y-m-d").".txt");
 	include("common/config.php");
 
 	global $chat_id, $data, $receivedMessage;
@@ -11,11 +9,12 @@
 	function writeLog($message){
 		//Write log into log file
 		$date = date("Y-m-d");
-		$logFile = fopen("log/".$date.".txt", "a+");
-		fwrite($logFile, date("H:i:s\t"));
+		$logFile = fopen("logs/".$date.".txt", "a+");
+		if ($message !== "")
+			fwrite($logFile, date("[d-M-Y H:i:s] "));
 		fwrite($logFile, print_r($message, TRUE)."\n");
 		fclose($logFile);
-		chmod("log/".$date.".txt", 0644);
+		chmod("logs/".$date.".txt", 0644);
 	}
 
 	function sendSticker($file_id){
@@ -111,8 +110,6 @@
 		}
 
 		$parameters["method"] = $method;
-
-		writeLog($parameters);
 		
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($parameters));
@@ -121,7 +118,7 @@
 			echo 'Curl error: ' . curl_error($ch);
 		else
 			echo 'Operation completed without any errors';
-		writelog("Response:\n".print_r(json_decode($response),TRUE));
+		//writelog("Response:\n".print_r(json_decode($response),TRUE));
 		curl_close($ch);
 		return true;
 
