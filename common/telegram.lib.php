@@ -5,6 +5,7 @@
 	
 	//Create global $db variable
 	$db = new PDO("sqlite:database.sqlite");
+	$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
 	function writeLog($message){
 		//Write log into log file
@@ -15,6 +16,44 @@
 		fwrite($logFile, print_r($message, TRUE)."\n");
 		fclose($logFile);
 		chmod("logs/".$date.".txt", 0644);
+	}
+
+	function timerlock($service){
+		global $db, $chat_id;
+		$statement = $db->prepare("SELECT COUNT(*) FROM timer WHERE service=? AND chat_id=?");
+		$statement->bindValue(1, $service);
+		$statement->bindValue(2, $chat_id);
+		$statement->execute();
+		$row = $statement->fetch();
+		
+		if ($row[0] == 0){
+			$statement = $db->prepare("INSERT INTO timer (chat_id, timestamp, service) VALUES (?, ?, ?)");
+			$statement->bindValue(1, $chat_id);
+			$statement->bindValue(2, time());
+			$statement->bindValue(3, $service);
+			$statement->execute();
+			$lock =  false;
+		} else {
+			$statement = $db->prepare("SELECT timestamp FROM timer WHERE chat_id=? AND service=?");
+			$statement->bindValue(1, $chat_id);
+			$statement->bindValue(2, $service);
+			$statement->execute();
+			$row = $statement->fetch();
+
+			$statement = $db->prepare("UPDATE timer SET timestamp=? WHERE chat_id=? AND service=?");
+			$statement->bindValue(1, time());
+			$statement->bindValue(2, $chat_id);
+			$statement->bindValue(3, $service);
+			$statement->execute();
+			$lock = (!(time() - $row["timestamp"] >= 20));
+		}
+		if ($lock){
+			$content = "請勿頻繁使用此功能";
+			if ($chat_id < 0)
+				$content .= "\n\n群組使用者可選擇PM此Bot並傳送指令";
+			sendMessage($content);
+		}
+		return $lock;
 	}
 
 	function sendSticker($file_id){

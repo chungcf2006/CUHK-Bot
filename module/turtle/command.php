@@ -13,41 +13,9 @@
 			array_push($contents, $result["content"]);
 		}
 		return $prefix.$contents[rand(0, count($contents)-1)]."\n";
-	}
+	}	
 
-	
-
-	$statement = $db->prepare("SELECT COUNT(*) FROM timer WHERE service=\"turtle\" AND chat_id=?");
-	$statement->bindValue(1, $chat_id);
-	$statement->execute();
-	$row = $statement->fetch();
-	
-	if ($row[0] == 0){
-		$statement = $db->prepare("INSERT INTO timer (chat_id, timestamp, service) VALUES (?, ?, \"turtle\")");
-		$statement->bindValue(1, $chat_id);
-		$statement->bindValue(2, time());
-		$statement->execute();
-		$lock = FALSE;
-	} else {
-		$statement = $db->prepare("SELECT timestamp FROM timer WHERE chat_id=? AND service=\"turtle\"");
-		$statement->bindValue(1, $chat_id);
-		$statement->execute();
-		$row = $statement->fetch();
-
-		$lock = (!(time() - $row["timestamp"] >= 60));
-		$statement = $db->prepare("UPDATE timer SET timestamp=? WHERE chat_id=? AND service=\"turtle\"");
-		$statement->bindValue(1, time());
-		$statement->bindValue(2, $chat_id);
-		$statement->execute();
-
-	}
-	
-	if ($lock){
-		$content = "請勿頻繁使用此功能";
-		if ($data->message->chat->type != "private")
-			$content .= "\n\n群組使用者可選擇PM此Bot並傳送指令";
-		sendMessage($content);
-	} else {
+	if (!timerlock("turtle")){
 		$content = "";
 		for ($i = 1; $i <= 9; $i++)
 			$content .= genSentence($i);
